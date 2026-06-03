@@ -19,41 +19,6 @@ Trained with SA-MDPO and inferred under Multi-Role Consensus (MRC), our compact 
 
 ---
 
-## 📂 Repository Structure
-
-SA-MDPO-for-Qwen-vl/
-├── scripts/                            # Training & evaluation shell scripts
-│   ├── finetune_mdpo_qwen2_5.sh        # Train on Qwen2.5-VL
-│   ├── finetune_mdpo_qwen3.sh          # Train on Qwen3-VL (recommended)
-│   ├── eval.sh                         # Evaluate on MacroValue-Bench
-│   ├── merge_lora.sh                   # Merge LoRA adapters
-│   ├── gradio.sh                       # Launch Gradio demo
-│   └── zero*.json                      # DeepSpeed configurations
-├── src/
-│   ├── train/                          # Training entry points
-│   ├── trainer/                        # DPO / MDPO / SA-MDPO trainers
-│   ├── dataset/                        # Multi-level preference data loader
-│   ├── model/                          # Qwen-VL model wrappers
-│   ├── eval/                           # Evaluation metrics (QWK, VSMS, etc.)
-│   ├── serve/                          # Gradio demo backend
-│   ├── params.py                       # Training arguments
-│   ├── constants.py                    # Project constants
-│   ├── utils.py                        # Helper functions
-│   └── merge_lora_weights.py           # LoRA merge utility
-├── environment.yaml                    # Conda environment
-└── LICENSE                             # Apache-2.0
-
-
----
-
-## 🔧 Requirements
-
-- Python ≥ 3.10
-- CUDA ≥ 11.8
-- PyTorch ≥ 2.1.0
-- Transformers ≥ 4.45.0 (for Qwen3-VL: ≥ 4.57.0)
-- DeepSpeed ≥ 0.14
-- 1× NVIDIA A100/A800 GPU (40GB+) recommended
 
 ### Installation
 
