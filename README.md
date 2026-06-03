@@ -3,7 +3,7 @@
 
 ## 📖 Overview
 
-This repository contains the official implementation of **SA-MDPO** (Span-Adaptive Multi-level DPO), a rank-gap-aware preference optimization method for distilling macro-societal value-judgment capability from frontier vision-language models into compact student models.
+This repository contains the official implementation of **SA-MDPO** (Span-Adaptive Multi-level DPO), a rank-gap-aware preference optimization method for distilling macro-societal value-judgment capability from frontier vision-language models into compact student models. We also provide datasets for training and evaluating.
 
 **Key features**:
 - ✅ Support for both **Qwen2.5-VL** and **Qwen3-VL** model families
