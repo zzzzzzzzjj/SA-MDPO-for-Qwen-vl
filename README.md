@@ -6,9 +6,7 @@
 
 ## 📖 Overview
 
-This repository contains the official implementation of **SA-MDPO** (Span-Adaptive Multi-level DPO), a rank-gap-aware preference optimization method for distilling macro-societal value-judgment capability from frontier vision-language models into compact student models. SA-MDPO is part of the **MAVEN** framework, which evaluates multimodal content along 6 macro-societal value dimensions (Peace, Development, Equity, Justice, Democracy, Freedom) and 72 secondary indicators.
-
-Trained with SA-MDPO and inferred under Multi-Role Consensus (MRC), our compact 2B model matches its 8B counterpart in the same family and approaches frontier closed-source VLMs on macro-societal value evaluation.
+This repository contains the official implementation of **SA-MDPO** (Span-Adaptive Multi-level DPO), a rank-gap-aware preference optimization method for distilling macro-societal value-judgment capability from frontier vision-language models into compact student models.
 
 **Key features**:
 - ✅ Support for both **Qwen2.5-VL** and **Qwen3-VL** model families
