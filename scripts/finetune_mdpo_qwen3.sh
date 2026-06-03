@@ -28,7 +28,7 @@ deepspeed --master_port 29501 src/train/train_mdpo.py \
     --bf16 True \
     --fp16 False \
     --disable_flash_attn2 True \
-    --output_dir output/qwen3vl_4b_mdpo_smallbatch_4epoch \
+    --output_dir output/qwen3vl_4b_samdpo \
     --num_train_epochs 4 \
     --per_device_train_batch_size $BATCH_PER_DEVICE \
     --gradient_accumulation_steps $GRAD_ACCUM_STEPS \
