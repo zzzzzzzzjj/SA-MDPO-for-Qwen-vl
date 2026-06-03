@@ -32,7 +32,7 @@ conda activate samdpo
 
 ## Datasets
 
-Benchmark and training set are accessed at [valuedata](https://pan.baidu.com/s/1gsNmPKQ951E5ZjKn6yxNBg?pwd=ah8t).
+Benchmark and training set are accessible at [valuedata](https://pan.baidu.com/s/1gsNmPKQ951E5ZjKn6yxNBg?pwd=ah8t).
 
 
 
