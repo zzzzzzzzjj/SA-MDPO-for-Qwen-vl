@@ -1,7 +1,4 @@
-# SA-MDPO for Qwen-VL
-
-> Official implementation of  
-> **"MAVEN: A Macro-Societal Value Evaluation Framework of Multimodal Content with Compact Aligned Evaluators"**
+# **"MAVEN: A Macro-Societal Value Evaluation Framework of Multimodal Content with Compact Aligned Evaluators"**
 
 
 ## 📖 Overview
@@ -32,7 +29,7 @@ conda activate samdpo
 
 ## Datasets
 
-Benchmark and training set are accessible at [valuedata](https://pan.baidu.com/s/1gsNmPKQ951E5ZjKn6yxNBg?pwd=ah8t).
+Macrovalue Benchmark and multilevel training set are accessible at [valuedata](https://pan.baidu.com/s/1gsNmPKQ951E5ZjKn6yxNBg?pwd=ah8t).
 
 
 
